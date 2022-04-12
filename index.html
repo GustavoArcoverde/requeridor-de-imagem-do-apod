@@ -15,8 +15,13 @@
     <h1>Titulo</h1>
     <section>
         <p>Insira uma data para podermos retornar uma imagem:</p>
-        <input type="date">
+        <input type="date" id="data" min="1995-06-">
+        <input type="button" value="Procurar Imagem" id="submit">
     </section>
+    <div>
+        <img src="" alt="" id="imagem">
+        <video src="" id="video"></video>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./index.js"></script>
 </body>
