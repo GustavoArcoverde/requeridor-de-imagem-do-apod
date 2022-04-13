@@ -1,0 +1,60 @@
+@media(max-width: 1025px) {
+    #valorData {
+        text-align: center;
+    }
+
+    #conteudo {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 426px) {
+    #tituloEDescricao{
+        width: 400px;
+    }
+    #imagem {
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+    }
+
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 376px){
+    #tituloEDescricao{
+        width: 350px;
+    }
+    #imagem {
+        max-width: 350px;
+        max-height: 350px;
+        width: auto;
+        height: auto;
+    }
+
+    iframe{
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 321px){
+    #tituloEDescricao{
+        width: 300px;
+    }
+    #imagem {
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+    }
+
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+}

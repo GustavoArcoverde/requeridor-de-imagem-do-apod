@@ -19,8 +19,8 @@ main{
     gap: 5px
 }
 
-#valorData>p{
-    margin-bottom: 10px;
+#valorData>h1{
+    font-size: 35px;
 }
 
 #submit{
@@ -38,7 +38,7 @@ main{
 
 #conteudo{
     height: 100%;
-    padding: 20px;
+    padding: 15px;
     gap: 10px;
     display: flex;
     flex-direction: row;
@@ -51,6 +51,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     width: 500px;
 }
 
