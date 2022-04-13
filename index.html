@@ -6,27 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Requiridor de APOD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/media-queries.css">
 </head>
 
 <body id="root">
-    <h1>Titulo</h1>
-    <section>
-        <p>Insira uma data para podermos retornar uma imagem:</p>
-        <input type="date" id="data" min="1995-06-20">
-        <input type="button" value="Procurar Imagem" id="submit">
-    </section>
-    <section>
-        <div>
-            <h2>Título: <span id="nomeDaFoto"></span></h2>
-        </div>
-        <div>
-            <img src="" alt="" id="imagem">
-            <iframe src="" frameborder="0" id="video"></iframe>
-        </div>
-    </section>
+    <main>
+        <section id="valorData">
+            <h1>Imagem Astronômica do Dia</h1>
+            <p>Insira uma data para podermos retornar uma imagem:</p>
+            <input type="date" id="data" min="1995-06-20">
+            <input type="button" value="Procurar Imagem" id="submit">
+        </section>
+        <section id="conteudo">
+            <div>
+                <h2>Título: <span id="nomeDaFoto"></span></h2>
+            </div>
+            <div>
+                <img src="" alt="" id="imagem">
+                <iframe src="" frameborder="0" width="500px" height="300" id="video"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Projeto criado para fins educativos</p>
+        <a href="https://github.com/GustavoArcoverde" target="_blank">
+            <img src="./img/github.png" alt="">
+        </a>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./index.js"></script>
 </body>
